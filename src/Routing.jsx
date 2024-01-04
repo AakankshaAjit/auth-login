@@ -1,11 +1,16 @@
 import React from 'react'
 
 import {BrowserRouter,Routes, Route } from 'react-router-dom'
-import Footer from './components/footer/Footer'
+
 import Header from './components/header/Header'
 
-import Services from './components/Services'
-import Aboutus from './components/Aboutus'
+
+
+import Login from './components/Login'
+import Next from './components/Next'
+
+
+
 
 
 const Routing = () => {
@@ -14,8 +19,15 @@ const Routing = () => {
     <Header/>
 
     <Routes>
-    <Route path='/Services' element={<Services/>}/>
-    <Route path='/Aboutus' element={<Aboutus/>}/>
+    <Route path='/Login' element={<Login/>}/>
+    <Route path='/Next' element={<Next/>}/>
+    
+    
+    
+    
+    
+    
+    
         
 
         
@@ -26,7 +38,7 @@ const Routing = () => {
          
 
 
-    <Footer/>
+    
     
     
     
