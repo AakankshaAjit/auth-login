@@ -6,8 +6,14 @@ import Header from './components/header/Header'
 
 
 
-import Login from './components/Login'
+
 import Next from './components/Next'
+import Auth from './components/Auth'
+
+
+
+
+
 
 
 
@@ -17,10 +23,33 @@ const Routing = () => {
   return (
     <BrowserRouter>
     <Header/>
+    
 
     <Routes>
-    <Route path='/Login' element={<Login/>}/>
+      
+    
     <Route path='/Next' element={<Next/>}/>
+    <Route path='/Auth'  element={<Auth/>}/>
+    <Route path='/Login'  element={<Auth/>}/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+
     
     
     
